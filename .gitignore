@@ -1,0 +1,10 @@
+*.jpeg
+*.jpg
+*.JPEG
+*.gz
+*.bin
+*.txt
+
+venv/
+__pycache__/
+weights/
