@@ -90,6 +90,16 @@ python -m finetuning --save_dir weights \
 ## results
 - check `results/` 
 
+- `mae_vit_base`
+    - it takes about 48 hours for pretraining using `8 x RTX 3090`
+    - it takes about 36 hours for finetuning using `8 x RTX 3090`
+
+|metric|mae_vit_base|vit_base|
+|---|---|---|
+|top1_acc|81.24|78.47|
+
+![image](results/mae_vit_base/finetuning/loss_curve.png)
+
 ## acknowledgement
 this project makes use of the following libraries and models
 - [timm](https://github.com/huggingface/pytorch-image-models)

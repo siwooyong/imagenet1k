@@ -3,7 +3,6 @@
 *.JPEG
 *.gz
 *.bin
-*.txt
 
 venv/
 __pycache__/
