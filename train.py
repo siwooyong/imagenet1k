@@ -135,7 +135,7 @@ if __name__ == "__main__":
     
     parser.add_argument("--save_dir", type = str, default = "weights")
     parser.add_argument("--model_name", type = str, default = "convnext_base.fb_in1k")
-    parser.add_argument("--pretrained", type = bool, default = False)
+    parser.add_argument("--pretrained", action = "store_true")
     
     parser.add_argument("--device", type = str, default = "cuda")
     
